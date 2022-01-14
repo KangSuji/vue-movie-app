@@ -5,8 +5,8 @@
 
 [dev]
   framwork = "#custom"
-  command = "npm run dev"
-  targetPort = 8090
-  port = 8888
+  command = "npm run dev:webpack"
+  targetPort = 8091
+  port = 8090
   publish = "dist"
-  autoLanuch = false
+  autoLaunch = false
