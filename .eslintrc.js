@@ -1,8 +1,13 @@
 module.exports = {
   env:{
     browser: true,
-    node: true
+    node: true,
+    jest: true,
+    'cypress/globals': ture
   },
+  plugins: [
+    'cypress'
+  ],
   extends: [
     // vue
     //'plugin:vue/vue3-essential',
